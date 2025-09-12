@@ -15,25 +15,25 @@ export const Sidebar = () => {
         <aside className="flex flex-col gap-3 p-3 border-r-2 border-gray-100 w-[220px] h-screen ">
 
             <NavLink className={getStyles} to='/'>
-                <span class="material-symbols-outlined">
+                <span className="material-symbols-outlined">
                     home
                 </span>
                 <span>Home</span>
             </NavLink>
             <NavLink className={getStyles} to='/archive'>
-                <span class="material-symbols-outlined">
+                <span className="material-symbols-outlined">
                     archive
                 </span>
                 <span>Archive</span>
             </NavLink>
             <NavLink className={getStyles} to='/important'>
-                <span class="material-symbols-outlined">
+                <span className="material-symbols-outlined">
                     label_important
                 </span>
                 <span>Important</span>
             </NavLink>
             <NavLink className={getStyles} to='/bin'>
-                <span class="material-symbols-outlined">
+                <span className="material-symbols-outlined">
                     delete
                 </span>
                 <span>Bin</span>
